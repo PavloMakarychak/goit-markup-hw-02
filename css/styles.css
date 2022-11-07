@@ -1,0 +1,17 @@
+body {
+    position: relative;
+    width: 1600px;
+    height: 2346px;
+
+    background: tomato;
+}
+
+.hero {
+    position: absolute;
+    width: 1487px;
+    height: 562px;
+    left: 47px;
+    top: 147px;
+    background: #2F303A
+}
+
