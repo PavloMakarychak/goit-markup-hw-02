@@ -1,10 +1,17 @@
 body{
     font-family: "Roboto", "Raleway";
+    background-color: #F5F5F5;
 }
 
 .link{
     text-decoration: none;
+    color: #212121;
 }
+.list .link:hover,
+.list .link:focus{
+    color: #2196F3;
+}
+
 .list{
     list-style: none;
 }
