@@ -86,7 +86,7 @@ span.logo:hover{
         color: #FFFFFF;
 }
 
-.section-title{
+.features-title{
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -96,14 +96,14 @@ span.logo:hover{
         text-transform: uppercase;
         color: #212121;
 }
-.section-text{
+.features-text{
         font-family: 'Roboto';
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: #757575;
 }
-.work > .section-title{
+.work-title{
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -111,10 +111,13 @@ span.logo:hover{
         line-height: 1.17;
         text-align: center;
         letter-spacing: 0.03em;
-    
         color: #212121;
 }
-.team > .section-title{
+.team{
+    background: #F5F4FA;
+}
+
+.ourteam-title{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -122,8 +125,29 @@ span.logo:hover{
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+    color: #212121;
+}
 
-color: #212121;
+}
+.team-title{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+.team-text{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
 }
 .footer{
     background: #2F303A;
@@ -146,3 +170,39 @@ color: #212121;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
  }
+ .list-button {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+ }
+
+ .list-button:hover,
+ .list-button:focus{
+    background: #2196F3;
+ }
+.projects{
+    background: #FFFFFF;
+}
+.projects-title{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2.0;
+        letter-spacing: 0.06em;
+        color: #212121;
+}
+.projects-text{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
