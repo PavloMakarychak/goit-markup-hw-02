@@ -125,3 +125,24 @@ span.logo:hover{
 
 color: #212121;
 }
+.footer{
+    background: #2F303A;
+}
+.footer-adress{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+ .footer-mailto, .footer-tel{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+ }
