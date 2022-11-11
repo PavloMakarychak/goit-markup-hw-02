@@ -20,7 +20,7 @@ body{
 }
 .list .link:hover,
 .list .link:focus{
-    color:var(--accent-color)var(--accent-color);
+    color:var(--accent-color);
 }
 
 .list{
