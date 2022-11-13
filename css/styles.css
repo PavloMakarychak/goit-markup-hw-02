@@ -9,9 +9,9 @@
 
 
 body{
+    font-family: "Roboto",sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
-    font-family: "Roboto",sans-serif;
     background-color:var(--primary-bg-color);
     color:var(--title-text-color);
 }
@@ -24,6 +24,9 @@ body{
 .list .link:hover,
 .list .link:focus{
     color:var(--accent-color);
+}
+.studio:active{
+    color: tomato;
 }
 
 .list{
@@ -41,11 +44,16 @@ body{
 }
 .logo:hover,
 .logo:focus{
-    color: #2196F3;
+    color:var(--accent-color);
 }
-
-
-
+.activ-link { 
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+    background-color: var(--primary-bg-color);
+}
 
 .header-nav .link{
     line-height: 1.14;
@@ -81,19 +89,28 @@ body{
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
-        background: #2196F3;
+        background: var(--accent-color);
         color: var(--primary-bg-color);
 }
+.hero-button:hover,
+.hero-button:focus{
+    color: var(--accent-color);
+    background-color: var(--primary-bg-color);
+}
+
+
 
 .features-title{
-        text-transform: uppercase;
-        color: var(--title-text-color);
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--title-text-color);
 }
 .features-text{
-        line-height: 1.71;
-        color:var(--primary-text-color);
+    line-height: 1.71;
+    color:var(--primary-text-color);
 }
-.work-title{
+.features .title,
+.work .title{
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
@@ -102,35 +119,28 @@ body{
 .team{
     background: #F5F4FA;
 }
-
-.ourteam-title{
+.team .title{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     color: var(--title-text-color);
 }
-.team-list{
-    background: #FFFFFF;
-}
 
-.team-title{
+.team .list{
         font-size: 16px;
         line-height: 1.19;
-        color: var(--title-text-color);
-        background: #FFFFFF;
-}
-.team-text{
-        line-height: 1.19;
         text-align: center;
-        letter-spacing: 0.03em;
         color:var(--primary-text-color);
+       
 }
+.team-title{
+    color: var(--title-text-color);
+}
+
+
 .footer{
     background: var(--secondary-bg-color);
-    font-style: normal;
 }
-
-
 
 .footer-logo{
     color:var(--primary-bg-color);
@@ -144,6 +154,9 @@ body{
         line-height: 1.71;
         color: rgba(255, 255, 255, 0.6);
  }
+
+
+
  
  .filter-button{
     font-size: 16px;
